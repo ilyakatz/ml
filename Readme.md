@@ -4,7 +4,7 @@
 pip3 install virtualenv
 virtualenv ml
 source ml/bin/activate
-pip3 install jupyter matplotlib
+pip3 install jupyter matplotlib pandas numpy scipy sklearn
 ```
 
 ## Start the notebook
