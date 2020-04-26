@@ -2,9 +2,13 @@
 
 ```
 pip3 install virtualenv
+cd
 virtualenv ml
-source ml/bin/activate
-pip3 install jupyter matplotlib pandas numpy scipy sklearn bokeh
+source bin/activate
+pip install -r requirements.txt 
+
+jupyter contrib nbextension install --user
+jupyter nbextensions_configurator enable --user
 ```
 
 ## Start the notebook
